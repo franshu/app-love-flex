@@ -90,6 +90,33 @@ footer{
   color: white;
   padding-top: 7px;
 }
+/* WORK */
+#work{
+  text-align: center;
+  padding: 70px;
+
+  justify-content: center;
+	align-items: center;
+  align-content: stretch;
+	flex-direction: column;
+}
+
+.boxes-work.flex-container{
+  text-align: center;
+  padding: 0 70px;
+  
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box-work{
+  cursor: pointer;
+  max-width: 300px;
+  width: 100%;
+}
 
 
 

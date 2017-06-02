@@ -17,7 +17,10 @@
 .flex-container {
 	display: flex;
 }
-
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
 /*estilo boton */
 .btn-home {
   background: #2Ecc71;
